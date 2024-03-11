@@ -15,3 +15,11 @@
 .navbar a:hover {
     background-color: aquamarine;
 }
+
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    background: light-dark(#333, #ccc);
+}
