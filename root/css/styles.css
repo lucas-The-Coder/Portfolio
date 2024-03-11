@@ -1,7 +1,7 @@
 .navbar {
     overflow: hidden;
     background-color: #333;
-    font-size: 14px;
+    font-size: 16pt;
     color: #fff;
 }
 
@@ -13,11 +13,16 @@
     padding: 14px 16px;
     text-decoration: none;
     color: #111;
-    font-size: 16px;
-    text-decoration: solid;
-    animation: forwards 0.2s linear;
+    font-size: 18pt;
 }
 
 .navbar a:hover {
     background-color: aquamarine;
+}
+
+.active {
+    background-color: aquamarine;
+    color: #111;
+    text-decoration: solid;
+    animation: forwards 0.2s linear;
 }
