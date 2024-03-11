@@ -16,10 +16,6 @@
     background-color: aquamarine;
 }
 
-:root {
-    color-scheme: light dark;
-}
-
 body {
     display: flex;
     justify-content: center;
