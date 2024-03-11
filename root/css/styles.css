@@ -7,21 +7,19 @@
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #111;
-    font-size: 18pt;
+    border-radius: 4px;
+    color: black;
 }
 
 .navbar a:hover {
-    background-color: aquamarine;
+    background-color: rgb(11, 130, 146);
 }
 
 .active {
-    background-color: aquamarine;
-    color: #111;
-    text-decoration: solid;
+    background-color: rgb(11, 130, 146);
 }
