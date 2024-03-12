@@ -3,7 +3,7 @@
     background-color: #333;
     font-size: 16pt;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 14px;
 }
 
 .navbar a {
@@ -13,12 +13,13 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 14px;
     color: black;
 }
 
 .navbar a:hover {
     background-color: rgb(11, 130, 146);
+    border-radius: 14pt;
 }
 
 .active {
