@@ -7,3 +7,21 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
         });
     });
 });
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+window.addEventListener('scroll', function() {
+  const backToTopButton = document.getElementById('back-to-top');
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > 300) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  }
+});
