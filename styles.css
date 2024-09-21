@@ -112,3 +112,11 @@ footer a {
 .back-to-top.show {
   display: block;
 }
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
