@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #cbad8d;
     padding: 10px 0;
 }
 
@@ -45,7 +45,7 @@ header ul li a {
 }
 
 .btn {
-    background-color: #d1c7bd;
+    background-color: #cbad8d;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -64,7 +64,7 @@ section {
 }
 
 .project-item {
-    background-color: white;
+    background-color: #d1c7bd;
     padding: 20px;
     margin: 20px;
     width: 30%;
@@ -79,7 +79,7 @@ footer {
 }
 
 footer a {
-    color: #d1c7bd;
+    color: white;
     text-decoration: none;
 }
 
@@ -88,8 +88,8 @@ footer a {
   bottom: 20px;
   right: 20px;
   display: none;
-  background-color: #a48374;
-  color: #cbad8d;
+  background-color: none;
+  color: none;
   border: none;
   border-radius: 50%;
   width: 50px;
@@ -99,7 +99,7 @@ footer a {
 }
 
 .back-to-top:hover {
-  background-color: #d1c7bd;
+  background-color: none;
 }
 
 .icon-up {
@@ -111,6 +111,7 @@ footer a {
 
 .back-to-top.show {
   display: block;
+  color: none;
 }
 
 .icon {
