@@ -30,7 +30,7 @@ header ul li a {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #d1c7bd;
+    background-color: #cbad8d;
     color: white;
 }
 
@@ -45,7 +45,7 @@ header ul li a {
 }
 
 .btn {
-    background-color: #cbad8d;
+    background-color: #d1c7bd;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
