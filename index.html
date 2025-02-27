@@ -1,77 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luke Dennis - Software Engineer</title>
-    <link rel="icon" href="test2.png">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="icon" href="test2.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <marquee id="banner" direction="right" scrollamount="20">
-        <h1>Welcome to my portfolio website!</h1>
+      <h1>Welcome to my portfolio website!</h1>
     </marquee>
 
     <section id="home">
-        <div class="hero">
-            <h1>Welcome to Luke Dennis' World!</h1>
-            <p>Aspiring Software Developer</p>
-            <a href="#about" class="btn">Learn More</a>
-        </div>
+      <div class="hero">
+        <h1>Welcome to Luke Dennis' World!</h1>
+        <p>Aspiring Software Developer</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hi, I'm Luke Dennis, a passionate person determined to become a Software Developer.
-            I'm driven by challenges, and I love solving complex problems. 
-        </p>
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Luke Dennis, a passionate individual determined to become a
+        Software Developer. I'm driven by challenges, and I love solving complex
+        problems. I'm always eager to learn new technologies and improve my
+        skills.
+      </p>
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <h3>Project 1</h3>
-                <p>Description of the project.</p>
-            </div>
-            <div class="project-item">
-                <h3>Project 2</h3>
-                <p>Description of the project.</p>
-            </div>
-            <div class="project-item">
-                <h3>Project 3</h3>
-                <p>Description of the project.</p>
-            </div>
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>CRUD-API</h3>
+          <a href="https://github.com/lucas-The-Coder/CRUD-API"
+            ><img src="API.jpg" alt="CRUD-API image"
+          /></a>
+          <p>CRUD-API was made using node js and express.</p>
         </div>
+        <div class="project-item">
+          <h3>Python Snake Game</h3>
+          <a href="https://github.com/lucas-The-Coder/Snake-Game-Python"
+            ><img src="peakpx.jpg" alt="Python picture"
+          /></a>
+          <p>Python snake game was made using OOP principles and clean code.</p>
+        </div>
+        <div class="project-item">
+          <h3>Denncor Website</h3>
+          <a href="https://github.com/lucas-The-Coder/Denncor"
+            ><img src="image_0.jpg" alt="Denncor"
+          /></a>
+          <p>
+            Denncor website was made and is still in production. It features a
+            google Sign in function using google's API and it stores login
+            details currently using a local storage database but will be changed
+            to either SQL or MongoDB.
+          </p>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p><img class="icon" src="envelope-solid.svg" alt="envelope-solid"> <a href="mailto:luke.coding101@gmail.com" target="_blank">luke.coding101@gmail.com</a></p>
-            <p><img class="icon" src="github-brands-solid.svg" alt="github-brands"> <a href="https://github.com/lucas-The-Coder" target="_blank">lucas-The-Coder</a></p>
-            <p><img class="icon" src="linkedin-brands-solid.svg" alt="linkedin-brands"> <a href="https://www.linkedin.com/in/luke-dennis-29670230a/" target="_blank">Luke Dennis</a></p>
-            <p><img class="icon" src="instagram-brands-solid.svg" alt="instagram-brands"> <a href="https://www.instagram.com/lucas_the.coder/" target="_blank">lucas_the.coder</a></p>
-        </section>
-        <p>&copy; 2024 Luke Dennis</p>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          <img class="icon" src="envelope-solid.svg" alt="envelope-solid" />
+          <a href="mailto:luke.coding101@gmail.com" target="_blank"
+            >luke.coding101@gmail.com</a
+          >
+        </p>
+        <p>
+          <img class="icon" src="github-brands-solid.svg" alt="github-brands" />
+          <a href="https://github.com/lucas-The-Coder" target="_blank"
+            >lucas-The-Coder</a
+          >
+        </p>
+        <p>
+          <img
+            class="icon"
+            src="linkedin-brands-solid.svg"
+            alt="linkedin-brands"
+          />
+          <a
+            href="https://www.linkedin.com/in/luke-dennis-29670230a/"
+            target="_blank"
+            >Luke Dennis</a
+          >
+        </p>
+        <p>
+          <img
+            class="icon"
+            src="instagram-brands-solid.svg"
+            alt="instagram-brands"
+          />
+          <a href="https://www.instagram.com/lucas_the.coder/" target="_blank"
+            >lucas_the.coder</a
+          >
+        </p>
+      </section>
+      <p>&copy; 2024 Luke Dennis</p>
     </footer>
 
     <button id="back-to-top" class="back-to-top" onclick="scrollToTop()">
-      <img class="icon-up" src="jet-fighter-up-solid.svg" alt="jet-fighter-up-solid">
+      <img
+        class="icon-up"
+        src="jet-fighter-up-solid.svg"
+        alt="jet-fighter-up-solid"
+      />
     </button>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
