@@ -71,9 +71,10 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.project-list a {
-  color: #000000;
+.project-link {
+  color: white;
   text-decoration: none;
+  text-decoration-color: black;
 }
 
 #project-item1 {
