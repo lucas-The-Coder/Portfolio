@@ -71,12 +71,16 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.project-image {
-  width: 60%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
+#project-item1 {
+  background-image: src= "API.png";
+}
+
+#project-item2 {
+  background-image: src= "peakpx.jpg";
+}
+
+#project-item3 {
+  background-image: src= "image_0.jpg";
 }
 
 footer {
