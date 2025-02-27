@@ -72,15 +72,15 @@ section {
 }
 
 #project-item1 {
-  background-image: src= "API.png";
+  background-image: image-set("API.png");
 }
 
 #project-item2 {
-  background-image: src= "peakpx.jpg";
+  background-image: image-set("peakpx.jpg");
 }
 
 #project-item3 {
-  background-image: src= "image_0.jpg";
+  background-image: image-set("image_0.jpg");
 }
 
 footer {
