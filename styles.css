@@ -66,9 +66,12 @@ section {
 .project-item {
   background-color: #d1c7bd;
   padding: 20px;
-  margin: 20px;
-  width: 30%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* set a fixed width */
+  height: 400px; /* set a fixed height */
+  overflow: hidden; /* hide any content that exceeds the fixed size */
+  display: inline-block; /* allow multiple project items to be displayed on the same line */
+  margin: 20px; /* add some margin to separate project items */
 }
 
 .project-link {
