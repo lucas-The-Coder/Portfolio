@@ -79,29 +79,14 @@ section {
 
 #project-item1 {
   background-image: image-set("API.png");
-  width: 500px; /* set a fixed width */
-  height: 500px; /* set a fixed height */
-  overflow: hidden; /* hide any content that exceeds the fixed size */
-  display: inline-block; /* allow multiple project items to be displayed on the same line */
-  margin: 20px; /* add some margin to separate project items */
 }
 
 #project-item2 {
   background-image: image-set("peakpx.jpg");
-  width: 500px; /* set a fixed width */
-  height: 500px; /* set a fixed height */
-  overflow: hidden; /* hide any content that exceeds the fixed size */
-  display: inline-block; /* allow multiple project items to be displayed on the same line */
-  margin: 20px; /* add some margin to separate project items */
 }
 
 #project-item3 {
   background-image: image-set("image_0.jpg");
-  width: 500px; /* set a fixed width */
-  height: 500px; /* set a fixed height */
-  overflow: hidden; /* hide any content that exceeds the fixed size */
-  display: inline-block; /* allow multiple project items to be displayed on the same line */
-  margin: 20px; /* add some margin to separate project items */
 }
 
 footer {
