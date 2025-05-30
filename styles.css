@@ -80,18 +80,6 @@ section {
   text-decoration-color: black;
 }
 
-#project-item1 {
-  background-image: image-set("API.png");
-}
-
-#project-item2 {
-  background-image: image-set("peakpx.jpg");
-}
-
-#project-item3 {
-  background-image: image-set("image_0.jpg");
-}
-
 footer {
   background-color: #cbad8d;
   color: white;
